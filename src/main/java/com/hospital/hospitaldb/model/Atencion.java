@@ -14,6 +14,8 @@ public class Atencion {
     @Id@GeneratedValue
     private long id;
 
+    private int edad;
+    
     @Temporal(TemporalType.DATE)
     private Date Fecha;
 
